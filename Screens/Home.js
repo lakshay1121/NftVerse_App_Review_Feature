@@ -3,6 +3,8 @@ import React from "react";
 
 import * as StoreReview from "expo-store-review";
 
+// We can use async and await when we will be waiting for some task to perform first then we will be showing our Review section.
+
 const handleReview = () => {
 
   if(StoreReview.hasAction()){
